@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EP03 - Trabajo Individual</title>
+	<link rel ="stylesheet" type="text/css" href = "css/style.css">
+</head>
+
+<body>
+	<div align="center"><h1>Trabajo Individual</h1></div>
+		<!-- Convertir de galones a litros -->
+	<div align="center"><h2>Galones a Litros</h2></div>
+	<div align="center">
+		<div class="cajas">
+			<div id="valEntero" class="txtValor">0</div>
+			<input type="range" id="entero" min="0" max="100" value="0"><br>
+		</div>
+		<div class="cajas txtValor">=</div>
+		<div class="cajas txtValor" id ="resLitros">?</div>
+	</div>
+	<hr>
+	<!-- Convertir de gadros celsius a fahrenheit -->
+	<div align="center"><h2>Grados Cent&iacute;grados a Fahrenheit</h2></div>
+	<div align="center">
+		<div class="cajas">
+			<div id="valGrados" class="txtValor">0</div>
+			<input type="range" id="grados" min="0" max="100" value="0"><br>
+		</div>
+		<div class="cajas txtValor">=</div>
+		<div class="cajas txtValor" id ="resF">?</div>
+	</div>
+	<hr>
+	<!-- Convertir de gadros fahrenheit a celsius -->
+	<div align="center"><h2>Grados Fahrenheit a Cent&iacute;grados</h2></div>
+	<div align="center">
+		<div class="cajas">
+			<div id="valF" class="txtValor">0</div>
+			<input type="range" id="fahr" min="0" max="100" value="0"><br>
+		</div>
+		<div class="cajas txtValor">=</div>
+		<div class="cajas txtValor" id ="resGrados">?</div>
+	</div>
+	<hr>
+	<!-- Convertir de grados celsius a kelvin -->
+	<div align="center"><h2>Grados Cent&iacute;grados a Kelvin</h2></div>
+	<div align="center">
+		<div class="cajas">
+			<div id="valG" class="txtValor">0</div>
+			<input type="range" id="Gr" min="0" max="100" value="0"><br>
+		</div>
+		<div class="cajas txtValor">=</div>
+		<div class="cajas txtValor" id ="resKelvin">?</div>
+	</div>
+	<hr>
+	<!-- Convertir de kelvin a celsius -->
+	<div align="center"><h2>Grados Kelvin a Cent&iacute;grados</h2></div>
+	<div align="center">
+		<div class="cajas">
+			<div id="valK" class="txtValor">0</div>
+			<input type="range" id="kel" min="0" max="100" value="0"><br>
+		</div>
+		<div class="cajas txtValor">=</div>
+		<div class="cajas txtValor" id ="resCelsius">?</div>
+	</div>
+	<hr>
+	<!-- Clacular mi peso en la luna -->
+	<div align="center"><h2>Mi peso en la Luna</h2></div>
+	<div align="center">
+		<div class="cajas">
+			<div id="valPeso" class="txtValor">72</div>
+			<input type="range" id="miPeso" min="0" max="100" value="72"><br>
+		</div>
+		<div class="cajas txtValor">=</div>
+		<div class="cajas txtValor" id ="resPeso">?</div>
+	</div>
+	<hr>
+	<!-- Claculadora de fracionarios -->
+	<div align = "center"><h2>Calculadora de fraccionarios</h2></div>
+	<div id="cal">
+		<div align = "center" id="contenedor">
+			<div class = "cajas1">
+				<div id = "valNumerador1" class = "txtValor">0</div>
+				<input type = "range" id = "numerador1" min = "0" max = "100" value = "0"><br>
+			</div>
+			<hr>
+			<div class = "cajas1">
+				<div id = "valDenominador1" class = "txtValor">0</div>
+				<input type = "range" id = "denominador1" min = "0" max = "100" value = "0"><br>
+			</div>
+		</div>
+		<div id="signo">?</div>
+		<div id="contenedor2">
+			<div class = "cajas1">
+				<div id = "valNumerador2" class = "txtValor">0</div>
+				<input type = "range" id = "numerador2" min = "0" max = "100" value = "0"><br>
+			</div>
+			<hr>
+			<div class = "cajas1">
+				<div id = "valDenominador2" class = "txtValor">0</div>
+				<input type = "range" id = "denominador2" min = "0" max = "100" value = "0"><br>
+			</div>
+		</div>
+		<div id="igual">
+			<div class="cajas1 txtValor rta">=</div>
+		</div>
+		<div id="respuesta">
+			<div class="cajas1 txtValo rta1" id = "resFraccionario">?</div>
+		</div>
+		<div id="contenedor3">
+			<div align="center" id="calculadora">
+				<ul>
+				<li><button id="suma">+</button></li>
+					<li><button id="resta">-</button></li>
+					<li><button id="multiplicacion">x</button></li>
+					<li><button id="division">/</button></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src = "js/script.js"></script>
+</body>
+</html>
